@@ -14,6 +14,26 @@ p{
   color: #5d5c5c;
 }
 
+.mighty-home-content-beautifier{
+  padding: 0;
+}
+@media screen and (min-width: 768px){
+  .mighty-home-content-beautifier{
+    padding: 3em 0 0 0;
+  }
+}
+
+.mobile-images{
+  display: none;
+}
+@media screen and (min-width: 992px){
+  .mobile-images{
+    display: block;
+  }
+}
+
+
+
 /*Mighty Navigation*/
 .mighty-navbar{
   background: #fff;
@@ -40,27 +60,30 @@ p{
     font-size: 0.9em;
 }
 
-li.mighty-fa-facebook{
-  background: #3b5998;
-  padding: 0 0.2em;
-  margin-left: 1em;
+.mighty-navbar .navbar-toggle {
+    border-color: #fff;
 }
 
-li.mighty-fa-twitter{
-  background: #4099FF;
+.mighty-navbar .navbar-toggle:focus,
+.mighty-navbar .navbar-toggle:hover {
+    background-color: #fff;
 }
 
-li.mighty-fa-facebook a,
-li.mighty-fa-twitter a{
-  color:#fff !important;
-  font-size: 1.2em;
+.mighty-navbar .navbar-toggle .icon-bar {
+    background-color: #0085c4;
 }
 
 /*Mighty Header*/
 .mighty-header{
   margin-top: 50px;
+  padding-bottom: 2em;
   background: #ccc url('../images/mighty-bg.jpg') no-repeat center;
   background-size: cover;
+}
+@media screen and (min-width: 768px){
+  .mighty-header{
+    padding-bottom: 0;
+  }
 }
 
 .mighty-msg{
@@ -78,7 +101,7 @@ li.mighty-fa-twitter a{
 
 /*Mighty Form*/
 .mighty-header-form-wrapper{
-  margin: 1.5em;
+  margin: 0;
   border-radius: 10px;
   border: 1px solid #0075ac;
   /*Gradiendt*/
@@ -94,6 +117,11 @@ li.mighty-fa-twitter a{
   -webkit-box-shadow: 0px 3px 24px -4px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 3px 24px -4px rgba(0,0,0,0.75);
   box-shadow: 0px 3px 24px -4px rgba(0,0,0,0.75);
+}
+@media screen and (min-width: 768px) {
+  .mighty-header-form-wrapper{
+    margin: 1.5em;
+  }
 }
 
 .mighty-header-form-header{
@@ -157,8 +185,15 @@ li.mighty-fa-twitter a{
 .mighty-rewards{
   font-family: 'Oswald', sans-serif;
   background: #f5f5f5 url('../images/rewards-bg.png');
-  padding: 0.6em 0;
+  padding: 2em 0;
+  /*padding: 0.6em 0;*/
   text-align: center;
+}
+
+@media screen and (min-width: 768px){
+  .mighty-rewards{
+    padding: 0.6em 0;
+  }
 }
 
 .mighty-rewards h3{
@@ -177,20 +212,28 @@ li.mighty-fa-twitter a{
 
 /*mighty home content 1*/
 .mighty-home-content-1{
-  padding: 1em 0 0 0;
+  padding: 3em 0;
+  text-align: center;
   background: #fff url('../images/content-1-bg.png') no-repeat center;
   background-size: cover;
+}
+@media screen and (min-width: 768px){
+  .mighty-home-content-1{
+    text-align: left;
+    padding: 3em 0 0 0;
+  }
 }
 
 .mighty-home-content-1 h2{
   font-weight: 900;
   color:#3b3b3b;
   font-size: 3em;
-  padding-top: 1.5em;
+  /*padding-top: 1.5em;*/
 }
-
-.mighty-home-content-beautifier{
-  padding: 3em 0 0 0;
+@media screen and (min-width: 768px){
+  .mighty-home-content-1 h2{
+    padding-top: 1.5em;
+  }
 }
 
 .mighty-home-content-1-btn{
@@ -204,16 +247,26 @@ li.mighty-fa-twitter a{
 
 /*mighty home content 2*/
 .mighty-home-content-2{
-  padding: 2em 0 0 0;
+  padding: 3em 0 0 0;
+  text-align: center;
   background: #fff url('../images/content-2-bg.png') no-repeat center;
   background-size: cover;
+}
+@media screen and (min-width: 768px){
+  .mighty-home-content-2{
+    text-align: left;
+  }
 }
 
 .mighty-home-content-2 h2{
   font-weight: 900;
   color:#3b3b3b;
   font-size: 3em;
-  padding-top: 1.5em;
+}
+@media screen and (min-width: 768px){
+  .mighty-home-content-2 h2{
+    padding-top: 1.5em;
+  }
 }
 
 .mighty-home-content-2-btn{
@@ -221,14 +274,20 @@ li.mighty-fa-twitter a{
   border:2px solid #3b3b3b;
   text-transform: uppercase;
   font-size: 1.1em;
-  margin-top: 0.4em;
+  margin: 1em;
   font-family: 'Oswald',sans-serif;
 }
 
 /*mighty footer*/
 .mighty-footer{
   padding: 3em 0;
+  text-align: center;
   background: #3b3b3b url('../images/footer-bg.png');
+}
+@media screen and (min-width: 768px){
+  .mighty-footer{
+    text-align: left;
+  }
 }
 
 .mighty-footer ul{
