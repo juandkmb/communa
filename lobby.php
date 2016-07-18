@@ -67,7 +67,7 @@
       <div class="container">
         <div class="row">
           <ul>
-            <li><a href="#">Featured</a></li>
+            <li><a class="mighty-lobby-filters-active" href="#">Featured</a></li>
             <li><a href="#">Sports</a></li>
             <li><a href="#">Entertainment</a></li>
             <li><a href="#">LifeStyle</a></li>
@@ -78,10 +78,54 @@
       </div>
     </section>
 
-    <section class="juantest">
+    <section class="mighty-surveys">
       <div class="container">
         <div class="row">
-          
+          <div class="col-md-12">
+            <!-- Table -->
+            <table id="mighty-surveys-table" class="table">
+              <thead class="">
+                <tr>
+                  <th>Title</th>
+                  <th>Type</th>
+                  <th>Category</th>
+                  <th>Points</th>
+                  <th>Est Lenght</th>
+                  <th>Close</th>
+                  <th>Option</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Fightful would like to gain insight on UFC &amp; WWE</td>
+                  <td>Type</td>
+                  <td>Sports</td>
+                  <td>2000</td>
+                  <td>20min</td>
+                  <td>2 Days</td>
+                  <td><button class="mighty-surveys-btn btn">Take Survey</button></td>
+                </tr>
+                <tr>
+                  <td>Walwart Organic Products at best price</td>
+                  <td>Type</td>
+                  <td>Sports</td>
+                  <td>2000</td>
+                  <td>20min</td>
+                  <td>2 Days</td>
+                  <td><button class="mighty-surveys-btn btn">Take Survey</button></td>
+                </tr>
+                <tr>
+                  <td>Walwart Organic Products at best price</td>
+                  <td>Type</td>
+                  <td>Sports</td>
+                  <td>2000</td>
+                  <td>20min</td>
+                  <td>2 Days</td>
+                  <td><button class="mighty-surveys-btn btn">Take Survey</button></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
     </section>
