@@ -34,7 +34,7 @@
       <div class="container">
         <div class="row">
           <div class="text-center col-md-12 mighty-submsg">
-            <h1>Contact Us</h1>
+            <h1>Say Hello! Don't be Shy.</h1>
           </div>
         </div>
       </div>
@@ -45,9 +45,49 @@
         <div class="row">
           <div class="col-md-4">
             <h3>Our Office.</h3>
+            <p>2323 Yonge Street, Suite 203 <br />Toronto, Ontario M4P 2C9</p>
+            <p><strong>Phone</strong> 647.503.2356 (4237)</p>
+            <p><strong>Fax</strong> 647.503.2356 (4237)</p>
           </div>
           <div class="col-md-8">
-            <h3>Say Hello! Don't be Shy.</h3>
+            <div class="row clearfix-form">
+              <div class="col-sm-6">
+                <input type="text-field" class="form-control" placeholder="First Name"/>
+              </div>
+              <div class="col-sm-6">
+                <input type="text-field" class="form-control" placeholder="Last Name"/>
+              </div>
+            </div>
+            <div class="row clearfix-form">
+              <div class="col-sm-6">
+                <input type="text-field" class="form-control" placeholder="Email Address"/>
+              </div>
+              <div class="col-sm-6">
+                <input type="text-field" class="form-control" placeholder="Company"/>
+              </div>
+            </div>
+            <div class="row clearfix-form">
+              <div class="col-sm-6">
+                <input type="text-field" class="form-control" placeholder="Phone Number"/>
+              </div>
+              <div class="col-sm-6">
+                <select class="form-control">
+                  <option>Office/Main</option>
+                  <option>Option 1</option>
+                  <option>Option 2</option>
+                </select>
+              </div>
+            </div>
+            <div class="row clearfix-form">
+              <div class="col-sm-12">
+                <input type="text-field" class="form-control" placeholder="Subject"/>
+              </div>
+            </div>
+            <div class="row clearfix-form">
+              <div class="col-sm-12">
+                <textarea name="comment" class="form-control" height="400">Enter text here...</textarea>
+              </div>
+            </div>
           </div>
         </div>
       </div>

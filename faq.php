@@ -40,6 +40,51 @@
       </div>
     </section>
 
+    <section class="mighty-faq">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+
+            <button class="btn mighty-faq-accordion-btn" data-toggle="collapse" data-target="#q-1"><i class="mighty-faq-fa fa fa-plus-square-o" aria-hidden="true"></i> Lorem ipsum dolor sit amet, consectetuer adipiscing elit?</button>
+            <div id="q-1" class="collapse mighty-faq-aswers">
+              <p>Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.</p>
+            </div>
+
+            <button class="btn mighty-faq-accordion-btn" data-toggle="collapse" data-target="#q-2"><i class="mighty-faq-fa fa fa-plus-square-o" aria-hidden="true"></i> Maecenas tempus, tellus eget condimentum rhoncus?</button>
+            <div id="q-2" class="collapse mighty-faq-aswers">
+              <p>Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.</p>
+            </div>
+
+            <button class="btn mighty-faq-accordion-btn" data-toggle="collapse" data-target="#q-3"><i class="mighty-faq-fa fa fa-plus-square-o" aria-hidden="true"></i> Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi?</button>
+            <div id="q-3" class="collapse mighty-faq-aswers">
+              <p>Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.</p>
+            </div>
+
+            <button class="btn mighty-faq-accordion-btn" data-toggle="collapse" data-target="#q-4"><i class="mighty-faq-fa fa fa-plus-square-o" aria-hidden="true"></i> Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem?</button>
+            <div id="q-4" class="collapse mighty-faq-aswers">
+              <p>Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.</p>
+            </div>
+
+            <button class="btn mighty-faq-accordion-btn" data-toggle="collapse" data-target="#q-5"><i class="mighty-faq-fa fa fa-plus-square-o" aria-hidden="true"></i> Lorem ipsum dolor sit amet, consectetuer adipiscing elit?</button>
+            <div id="q-5" class="collapse mighty-faq-aswers">
+              <p>Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.</p>
+            </div>
+
+            <button class="btn mighty-faq-accordion-btn" data-toggle="collapse" data-target="#q-6"><i class="mighty-faq-fa fa fa-plus-square-o" aria-hidden="true"></i> Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi?</button>
+            <div id="q-6" class="collapse mighty-faq-aswers">
+              <p>Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.</p>
+            </div>
+
+            <button class="btn mighty-faq-accordion-btn" data-toggle="collapse" data-target="#q-7"><i class="mighty-faq-fa fa fa-plus-square-o" aria-hidden="true"></i> Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem?</button>
+            <div id="q-7" class="collapse mighty-faq-aswers">
+              <p>Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
     <?php include('modules/footer.php'); ?>
 
     <!-- Bootstrap core JavaScript

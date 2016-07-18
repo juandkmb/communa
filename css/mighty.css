@@ -14,6 +14,10 @@ p{
   color: #5d5c5c;
 }
 
+textarea.form-control {
+  height: 250px;
+}
+
 .clearfix-form{
   padding-bottom: 0.7em;
 }
@@ -525,6 +529,10 @@ a.mighty-lobby-filters-active{
   font-weight: 300;
 }
 
+#mighty-surveys-table>tbody>tr>td{
+  vertical-align: middle;
+}
+
 .mighty-surveys-btn{
   font-family: 'Oswald', sans-serif;
   color:#fff;
@@ -536,8 +544,9 @@ a.mighty-lobby-filters-active{
 
 /*Mighty Login*/
 .mighty-login{
-  background: url('../images/login-bg.jpg') no-repeat center;
-  background-size: cover;
+  /*background: url('../images/login-bg.jpg') no-repeat center;
+  background-size: cover;*/
+  background: url('../images/general-bg.png');
   position:fixed;
   padding:0;
   margin:0;
@@ -641,6 +650,47 @@ a.mighty-lobby-filters-active{
   color: #fff;
   border: 2px solid #0085c4;
   background: #0085c4;
+}
+
+/*Contact Us Page*/
+.mighty-contact-us{
+  padding: 3em 0;
+  background: url('../images/general-bg.png');
+}
+
+.mighty-contact-us h3{
+  color: #3b3b3b;
+  font-weight: 900;
+}
+
+/*FAQ Page*/
+.mighty-faq {
+  padding: 3em 0;
+  background: url('../images/general-bg.png');
+}
+
+.mighty-faq-accordion-btn{
+  color: #0085c4;
+  background: transparent;
+  font-size: 1.5em;
+  font-weight: 300;
+  padding: 0;
+  margin-bottom: 0.5em;
+}
+
+.mighty-faq-accordion-btn:hover,
+.mighty-faq-accordion-btn:focus,
+.mighty-faq-accordion-btn:active{
+  color: #0085c4;
+  box-shadow: none;
+}
+
+.mighty-faq-fa{
+  padding-right: 0.5em;
+}
+
+.mighty-faq-aswers{
+  margin-left: 2.5em;
 }
 
 /*mighty footer*/

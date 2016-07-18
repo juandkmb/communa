@@ -99,60 +99,42 @@
             <table id="mighty-surveys-table" class="table">
               <thead class="">
                 <tr>
-                  <th>Title</th>
+                  <th>Topic</th>
                   <th>Type</th>
-                  <th>Category</th>
-                  <th>Points</th>
                   <th>Est Lenght</th>
-                  <th>Close</th>
                   <th></th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Fightful would like to gain insight on UFC &amp; WWE</td>
-                  <td>Type</td>
-                  <td>Sports</td>
-                  <td>2000</td>
-                  <td>20min</td>
-                  <td>2 Days</td>
-                  <td><button class="mighty-surveys-btn btn">Take Survey</button></td>
+                  <td>General Profile</td>
+                  <td>10 pts</td>
+                  <td>5 min</td>
+                  <td><button class="mighty-surveys-btn btn">Start Survey</button></td>
                 </tr>
                 <tr>
-                  <td>Walwart Organic Products at best price</td>
-                  <td>Type</td>
-                  <td>Sports</td>
-                  <td>500</td>
-                  <td>20min</td>
-                  <td>2 Days</td>
-                  <td><button class="mighty-surveys-btn btn">Take Survey</button></td>
+                  <td>Technology Profile</td>
+                  <td>5 pts</td>
+                  <td>2 min</td>
+                  <td><button class="mighty-surveys-btn btn">Start Survey</button></td>
                 </tr>
                 <tr>
-                  <td>Target Opening doors in Canada</td>
-                  <td>Type</td>
-                  <td>Sports</td>
-                  <td>1200</td>
-                  <td>20min</td>
-                  <td>2 Days</td>
-                  <td><button class="mighty-surveys-btn btn">Take Survey</button></td>
+                  <td>Shopping Profile</td>
+                  <td>15 pts</td>
+                  <td>8 min</td>
+                  <td><button class="mighty-surveys-btn btn">In Progress</button></td>
                 </tr>
                 <tr>
-                  <td>Fightful would like to gain insight on UFC &amp; WWE</td>
-                  <td>Type</td>
-                  <td>Sports</td>
-                  <td>2000</td>
-                  <td>20min</td>
-                  <td>2 Days</td>
-                  <td><button class="mighty-surveys-btn btn">Take Survey</button></td>
+                  <td>Household Profile</td>
+                  <td>20 pts</td>
+                  <td>10min</td>
+                  <td><button class="mighty-surveys-btn btn">In Progress</button></td>
                 </tr>
                 <tr>
-                  <td>Walwart Organic Products at best price</td>
-                  <td>Type</td>
-                  <td>Sports</td>
-                  <td>500</td>
-                  <td>20min</td>
-                  <td>2 Days</td>
-                  <td><button class="mighty-surveys-btn btn">Take Survey</button></td>
+                  <td>Travel Profile</td>
+                  <td>5 pts</td>
+                  <td>2 min</td>
+                  <td><button class="mighty-surveys-btn btn">Update</button></td>
                 </tr>
               </tbody>
             </table>
