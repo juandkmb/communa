@@ -80,9 +80,22 @@
 
     <section class="mighty-surveys">
       <div class="container">
+        <div class="mighty-search-bar row">
+          <div class="col-md-10 col-md-offset-1">
+            <form class="search-bar">
+  						<div class="input-group">
+  							<span class="input-group-btn">
+  								<button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+  							</span>
+  							<input type="text" class="form-control" placeholder="Search Survey">
+  						</div>
+  					</form>
+          </div>
+        </div>
         <div class="row">
           <div class="col-md-12">
             <!-- Table -->
+            <div class="table-responsive">
             <table id="mighty-surveys-table" class="table">
               <thead class="">
                 <tr>
@@ -92,7 +105,7 @@
                   <th>Points</th>
                   <th>Est Lenght</th>
                   <th>Close</th>
-                  <th>Option</th>
+                  <th></th>
                 </tr>
               </thead>
               <tbody>
@@ -109,6 +122,24 @@
                   <td>Walwart Organic Products at best price</td>
                   <td>Type</td>
                   <td>Sports</td>
+                  <td>500</td>
+                  <td>20min</td>
+                  <td>2 Days</td>
+                  <td><button class="mighty-surveys-btn btn">Take Survey</button></td>
+                </tr>
+                <tr>
+                  <td>Target Opening doors in Canada</td>
+                  <td>Type</td>
+                  <td>Sports</td>
+                  <td>1200</td>
+                  <td>20min</td>
+                  <td>2 Days</td>
+                  <td><button class="mighty-surveys-btn btn">Take Survey</button></td>
+                </tr>
+                <tr>
+                  <td>Fightful would like to gain insight on UFC &amp; WWE</td>
+                  <td>Type</td>
+                  <td>Sports</td>
                   <td>2000</td>
                   <td>20min</td>
                   <td>2 Days</td>
@@ -118,13 +149,14 @@
                   <td>Walwart Organic Products at best price</td>
                   <td>Type</td>
                   <td>Sports</td>
-                  <td>2000</td>
+                  <td>500</td>
                   <td>20min</td>
                   <td>2 Days</td>
                   <td><button class="mighty-surveys-btn btn">Take Survey</button></td>
                 </tr>
               </tbody>
             </table>
+            </div>
           </div>
         </div>
       </div>

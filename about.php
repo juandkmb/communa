@@ -29,7 +29,7 @@
 
     <?php include('modules/navigation.php'); ?>
 
-    <!-- Mighty Header Section -->
+    <!-- Mighty SubHeader Section -->
     <section class="mighty-subheader">
       <div class="container">
         <div class="row">

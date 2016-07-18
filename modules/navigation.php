@@ -13,7 +13,7 @@
     <div id="navbar" class="navbar-collapse collapse">
       <!-- User Login and Profile -->
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Login</a></li>
+        <li><a href="/communa/login.php">Login</a></li>
         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
         <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
       </ul>
@@ -21,7 +21,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="/communa/lobby.php">Surveys</a></li>
         <li><a href="/communa/faq.php">FAQ</a></li>
-        <li><a href="#">Rewards</a></li>
+        <li><a href="/communa/rewards.php">Rewards</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>

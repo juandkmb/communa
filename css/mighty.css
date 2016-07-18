@@ -14,6 +14,10 @@ p{
   color: #5d5c5c;
 }
 
+.clearfix-form{
+  padding-bottom: 0.7em;
+}
+
 .mighty-home-content-beautifier{
   padding: 0;
 }
@@ -36,6 +40,10 @@ p{
   padding: 6em 0;
   background: #fff url('../images/highlithed-bg.jpg') no-repeat center;
   background-size: cover;
+}
+
+.highlighted h2{
+  color:#fff;
 }
 
 .highlighted p{
@@ -125,6 +133,10 @@ p{
   font-weight: 900;
   font-size: 3em;
   line-height: 90%;
+}
+
+.mighty-subheader p{
+  color: #fff;
 }
 
 /*Mighty Header Status*/
@@ -265,6 +277,7 @@ p{
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   border-bottom: 1px solid #0075ac;
+  /*Gradient*/
   background: rgba(42,161,216,1);
   background: -moz-linear-gradient(top, rgba(42,161,216,1) 0%, rgba(0,134,196,1) 100%);
   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(42,161,216,1)), color-stop(100%, rgba(0,134,196,1)));
@@ -299,10 +312,6 @@ p{
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
   color:#fff;
-}
-
-.mighty-header-form-wrapper .clearfix-form{
-  padding-bottom: 0.7em;
 }
 
 .mighty-header-form-btn{
@@ -484,9 +493,20 @@ a.mighty-lobby-filters-active{
   padding-bottom: 15px;
 }
 
+/*Mighty Search*/
+.mighty-search-bar{
+  padding-bottom: 1em;
+}
+
 /*Mighty Surveys*/
 .mighty-surveys{
-  padding: 3em 0;
+  padding: 1em 0 3em 0;
+  background: url('../images/general-bg.png')
+}
+
+#mighty-surveys-table{
+  background: #fff;
+  border: 1px solid #d9d9d9;
 }
 
 #mighty-surveys-table thead{
@@ -511,6 +531,116 @@ a.mighty-lobby-filters-active{
   text-transform: uppercase;
   background: #36c000;
   border-bottom: 3px solid #1e6800;
+  float: right;
+}
+
+/*Mighty Login*/
+.mighty-login{
+  background: url('../images/login-bg.jpg') no-repeat center;
+  background-size: cover;
+  position:fixed;
+  padding:0;
+  margin:0;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+}
+
+.mighty-login-panel{
+  margin-top: 40%;
+  border: 1px solid #0085c4;
+  /*Gradiendt*/
+  background: rgba(0,134,196,1);
+  background: -moz-linear-gradient(top, rgba(0,134,196,1) 0%, rgba(42,161,216,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,134,196,1)), color-stop(100%, rgba(42,161,216,1)));
+  background: -webkit-linear-gradient(top, rgba(0,134,196,1) 0%, rgba(42,161,216,1) 100%);
+  background: -o-linear-gradient(top, rgba(0,134,196,1) 0%, rgba(42,161,216,1) 100%);
+  background: -ms-linear-gradient(top, rgba(0,134,196,1) 0%, rgba(42,161,216,1) 100%);
+  background: linear-gradient(to bottom, rgba(0,134,196,1) 0%, rgba(42,161,216,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0086c4', endColorstr='#2aa1d8', GradientType=0 );
+  /*Shadow*/
+  -webkit-box-shadow: 0px 3px 24px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 24px -4px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 24px -4px rgba(0,0,0,0.75);
+}
+
+.mighty-login-panel .panel-heading{
+  border-bottom: 1px solid #0075ac;
+  /*Gradient*/
+  background: rgba(42,161,216,1);
+  background: -moz-linear-gradient(top, rgba(42,161,216,1) 0%, rgba(0,134,196,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(42,161,216,1)), color-stop(100%, rgba(0,134,196,1)));
+  background: -webkit-linear-gradient(top, rgba(42,161,216,1) 0%, rgba(0,134,196,1) 100%);
+  background: -o-linear-gradient(top, rgba(42,161,216,1) 0%, rgba(0,134,196,1) 100%);
+  background: -ms-linear-gradient(top, rgba(42,161,216,1) 0%, rgba(0,134,196,1) 100%);
+  background: linear-gradient(to bottom, rgba(42,161,216,1) 0%, rgba(0,134,196,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2aa1d8', endColorstr='#0086c4', GradientType=0 );
+}
+
+.mighty-login-panel .panel-body{
+      padding: 50px;
+}
+
+.mighty-login ul{
+  list-style: none;
+  padding: 0;
+}
+
+.mighty-login ul li{
+  display: inline;
+}
+
+.mighty-login ul li a{
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  margin-right: 1em;
+  font-weight: 300;
+}
+
+.mighty-login-btn{
+  font-size: 1.1em;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  width: 100%;
+  background: #36c000;
+  border-bottom: 3px solid #1e6800;
+}
+
+.mighty-login p{
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  font-size: 0.9em;
+  font-weight: 300;
+  padding-top: 1em;
+}
+
+/*Rewards Page*/
+.mighty-rewards-options{
+  padding: 3em 0;
+  background: url('../images/general-bg.png');
+}
+
+.mighty-rewards-options .col-sm-4{
+  margin-bottom: 1.5em;
+}
+
+.mighty-rewards-options-btn{
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: #0085c4;
+  border: 2px solid #0085c4;
+  background: transparent;
+  font-size: 1.1em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.mighty-rewards-options-btn:hover{
+  color: #fff;
+  border: 2px solid #0085c4;
+  background: #0085c4;
 }
 
 /*mighty footer*/

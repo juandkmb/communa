@@ -8,13 +8,13 @@
       <div class="col-md-3">
         <ul>
           <li><a href="/communa/about.php">About</a></li>
-          <li><a href="#">Rewards</a></li>
+          <li><a href="/communa/rewards.php">Rewards</a></li>
           <li><a href="#">My Profile</a></li>
         </ul>
       </div>
       <div class="col-md-3">
         <ul>
-          <li><a href="#">Contact</a></li>
+          <li><a href="/communa/contact.php">Contact</a></li>
           <li><a href="#">Privacy Policy</a></li>
           <li><a href="#">Terms of Use</a></li>
           <li><a href="/communa/faq.php">FAQ</a></li>
