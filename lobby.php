@@ -29,7 +29,7 @@
 
     <?php include('modules/navigation-login.php'); ?>
 
-    <!-- Mighty Header Section -->
+    <!-- Mighty Header Status Section -->
     <section class="mighty-header-status">
       <div class="container">
         <div class="row">
@@ -53,10 +53,10 @@
                 <h4>Paid Out <span class="mighty-amount">500</span></h4>
               </div>
               <div class="col-sm-3">
-                <button class="mighty-header-status-btn btn">Cash Out</button>
+                <button class="mighty-header-status-btn btn" onclick="location.href = '/communa/cashout.php';">Cash Out</button>
               </div>
               <div class="col-sm-3">
-                <button class="mighty-header-status-btn btn">View Rewards</button>
+                <button class="mighty-header-status-btn btn" onclick="location.href = '/communa/rewards.php';">View Rewards</button>
               </div>
             </div>
 

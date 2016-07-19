@@ -29,67 +29,54 @@
 
     <?php include('modules/navigation-login.php'); ?>
 
-    <!-- Mighty Header Section -->
+    <!-- Mighty Header Status Section -->
     <section class="mighty-header-status">
       <div class="container">
         <div class="row">
-          <div class="col-md-10 col-md-offset-1">
+          <div class="col-md-8 col-md-offset-2">
+
             <div class="row">
-              <div class="col-sm-3">
-                <label>Current Points 300</label>
-              </div>
-              <div class="col-sm-3">
-                <label>Paid Out 500</label>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-8">
-                <div class="loading">
-                  <div class="progress">
-                    <div class="progress_bar"></div>
-                    <div id="prog_status"></div>
+              <div class="col-sm-12">
+                <div class="mighty-progress progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                    <span class="sr-only">70% Complete</span>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-2">
-                <button class="mighty-header-status-btn btn">Cash Out</button>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-3">
+                <h4>Current Points <span class="mighty-amount">300</span></h4>
               </div>
-              <div class="col-sm-2">
-                <button class="mighty-header-status-btn btn">View Rewards</button>
+              <div class="col-sm-3">
+                <h4>Paid Out <span class="mighty-amount">500</span></h4>
+              </div>
+              <div class="col-sm-3">
+                <button class="mighty-header-status-btn btn" onclick="location.href = '/communa/cashout.php';">Cash Out</button>
+              </div>
+              <div class="col-sm-3">
+                <button class="mighty-header-status-btn btn" onclick="location.href = '/communa/rewards.php';">View Rewards</button>
               </div>
             </div>
+
           </div>
         </div>
       </div>
     </section>
 
-    <section class="mighty-lobby-filters">
+    <section class="">
       <div class="container">
-        <div class="row">
-          <ul>
-            <li><a class="mighty-lobby-filters-active" href="#">Featured</a></li>
-            <li><a href="#">Sports</a></li>
-            <li><a href="#">Entertainment</a></li>
-            <li><a href="#">LifeStyle</a></li>
-            <li><a href="#">Automotive</a></li>
-            <li><a href="#">World</a></li>
-          </ul>
-        </div>
+
       </div>
     </section>
 
     <section class="mighty-surveys">
       <div class="container">
-        <div class="mighty-search-bar row">
-          <div class="col-md-10 col-md-offset-1">
-            <form class="search-bar">
-  						<div class="input-group">
-  							<span class="input-group-btn">
-  								<button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
-  							</span>
-  							<input type="text" class="form-control" placeholder="Search Survey">
-  						</div>
-  					</form>
+        <div class="row">
+          <div class="col-md-12">
+            <h2>My Profile</h2>
+            <p>Completing these personal profiles will increase your chance of qualifying for more surveys with higher rewards.</p>
           </div>
         </div>
         <div class="row">
@@ -110,7 +97,7 @@
                   <td>General Profile</td>
                   <td>10 pts</td>
                   <td>5 min</td>
-                  <td><button class="mighty-surveys-btn btn">Start Survey</button></td>
+                  <td><button type="button" class="mighty-surveys-btn btn" data-toggle="modal" data-target="#startSurvey">Start Survey</button></td>
                 </tr>
                 <tr>
                   <td>Technology Profile</td>
@@ -143,6 +130,55 @@
         </div>
       </div>
     </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="startSurvey" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="mighty-modal modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Shopping Profile</h4>
+          </div>
+          <div class="modal-body">
+            <!-- Progress Bar -->
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="mighty-progress progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:30%">
+                    <span class="sr-only">70% Complete</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <p>Which of these stores have you shopped at in the last 6 months? Select all that apply.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6">
+                <ul>
+                  <li><input type="radio" class=""> BestBuy</li>
+                  <li><input type="radio" class=""> Bj's</li>
+                  <li><input type="radio" class=""> Costco</li>
+                  <li><input type="radio" class=""> CVS</li>
+                  <li><input type="radio" class=""> Home Depot</li>
+                  <li><input type="radio" class=""> Kmart</li>
+                  <li><input type="radio" class=""> Kohl's</li>
+                  <li><input type="radio" class=""> Macy's</li>
+                  <li><input type="radio" class=""> Rite Aid</li>
+                  <li><input type="radio" class=""> Sam's Club</li>
+                </ul>
+              </div>
+              <div class="col-sm-6"></div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="mighty-modal-update-btn btn">Save &amp; Continue</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
 
