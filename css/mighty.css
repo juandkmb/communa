@@ -408,7 +408,11 @@ textarea.form-control {
   overflow-x:scroll;
   overflow-y:hidden;
   width:100%;
-  padding: 0 15px;
+}
+@media screen and (min-width: 768px){
+  .mighty-lobby-filters-scroll{
+    overflow-x:hidden;
+  }
 }
 
 .mighty-lobby-filters ul{
@@ -752,6 +756,61 @@ transition-delay:.2s;
 
 .mighty-faq-aswers{
   margin-left: 2.5em;
+}
+
+/*Mighty Modal*/
+.mighty-modal .modal-header{
+  color: #fff;
+  background: #0085c4;
+  font-weight: 700;
+}
+
+.mighty-modal .col-md-4{
+  text-align: left;
+}
+@media screen and (min-width: 768px){
+  .mighty-modal .col-md-4{
+    text-align: right;
+  }
+}
+
+.mighty-modal .col-md-4 label{
+  text-align: right;
+  font-weight: 300;
+}
+
+.mighty-modal .modal-footer{
+  background: #3b3b3b;
+  color: #3b3b3b;
+}
+
+.mighty-modal-cancel-btn,
+.mighty-modal-update-btn{
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+.mighty-modal-cancel-btn{
+  background: transparent;
+  color:#fff;
+  border: 2px solid #fff;
+}
+
+.mighty-modal-cancel-btn:hover{
+  background: #fff;
+  color:#3b3b3b;
+  border: 2px solid #fff;
+}
+
+.mighty-modal-update-btn{
+  background: #36c000;
+  border-bottom: 3px solid #1e6800;
+  color: #fff;
+}
+
+.mighty-modal-update-btn:hover{
+  opacity: 0.9;
+  color: #fff;
 }
 
 /*mighty footer*/

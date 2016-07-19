@@ -21,7 +21,7 @@
             <li role="separator" class="divider"></li>
             <li><a href="#">Rewards</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">My Settings</a></li>
+            <li><a data-toggle="modal" href="#mySettings">My Settings</a></li>
             <li><a href="#">Log Out</a></li>
           </ul>
         </li>
@@ -37,3 +37,104 @@
     </div><!--/.nav-collapse -->
   </div>
 </nav>
+
+<!-- Modal -->
+<div class="modal fade" id="mySettings" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="mighty-modal modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">My Settings</h4>
+      </div>
+      <div class="modal-body">
+
+        <div class="row clearfix-form">
+          <div class="col-md-4">
+            <label>First Name</label>
+          </div>
+          <div class="col-md-8">
+            <input type="text-field" class="form-control" placeholder="First Name"/>
+          </div>
+        </div>
+        <div class="row clearfix-form">
+          <div class="col-md-4">
+            <label>Last Name</label>
+          </div>
+          <div class="col-md-8">
+            <input type="text-field" class="form-control" placeholder="Last Name"/>
+          </div>
+        </div>
+        <div class="row clearfix-form">
+          <div class="col-md-4">
+            <label>Email</label>
+          </div>
+          <div class="col-md-8">
+            <input type="text-field" class="form-control" placeholder="Email"/>
+          </div>
+        </div>
+        <div class="row clearfix-form">
+          <div class="col-md-4">
+            <label>PayPal Email</label>
+          </div>
+          <div class="col-md-8">
+            <input type="text-field" class="form-control" placeholder="PayPal Email"/>
+          </div>
+        </div>
+        <div class="row clearfix-form">
+          <div class="col-md-4">
+            <label>e-Giftcard Email</label>
+          </div>
+          <div class="col-md-8">
+            <input type="text-field" class="form-control" placeholder="e-Giftcard Email"/>
+          </div>
+        </div>
+        <div class="row clearfix-form">
+          <div class="col-md-4">
+            <label>Address 1</label>
+          </div>
+          <div class="col-md-8">
+            <input type="text-field" class="form-control" placeholder="Address 1"/>
+          </div>
+        </div>
+        <div class="row clearfix-form">
+          <div class="col-md-4">
+            <label>Address 2</label>
+          </div>
+          <div class="col-md-8">
+            <input type="text-field" class="form-control" placeholder="Address 2"/>
+          </div>
+        </div>
+        <div class="row clearfix-form">
+          <div class="col-md-4">
+            <label>Postal Code</label>
+          </div>
+          <div class="col-md-8">
+            <input type="text-field" class="form-control" placeholder="Postal Code"/>
+          </div>
+        </div>
+        <div class="row clearfix-form">
+          <div class="col-md-4">
+            <label>New Password</label>
+          </div>
+          <div class="col-md-8">
+            <input type="text-field" class="form-control" placeholder="New Password"/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <label>Confirm New Password</label>
+          </div>
+          <div class="col-md-8">
+            <input type="text-field" class="form-control" placeholder="Confirm New Password"/>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="mighty-modal-cancel-btn btn" data-dismiss="modal">Cancel</button>
+        <button type="button" class="mighty-modal-update-btn btn">Update</button>
+      </div>
+    </div>
+  </div>
+</div>
