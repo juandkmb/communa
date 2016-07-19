@@ -134,7 +134,7 @@
             </div>
             <div class="row">
               <div class="col-sm-12">
-                <button class="mighty-rewards-options-btn btn">View Surveys</button>
+                <button class="mighty-rewards-options-btn btn" onclick="location.href = '/communa/lobby.php';">View Surveys</button>
               </div>
             </div>
           </div>

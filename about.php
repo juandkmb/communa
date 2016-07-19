@@ -66,7 +66,6 @@
             <p>Communa, is an online community where opinions matter! Members are able to voice their toughts and ideas,
             while also getting rewarded. Communa members also have the added benefit of working from home anytime during
             the day and anywhere they'd like.</p>
-            <button class="mighty-home-content-1-btn btn">Learn More</button>
           </div>
         </div>
       </div>
@@ -80,7 +79,6 @@
             <p>You can join by simply filling out our free registration form. Once your membership is confirmed by email,
             you can start earning cash and getting reward points by giving your opinions on online paid surveys. These
             surveys are available anytime and anywhere via PC, Laptop, or Cell Phone.</p>
-            <button class="mighty-home-content-2-btn btn">Signup Today</button>
           </div>
           <div class="text-center col-md-4">
             <img src="images/free-sign-up.png" />
@@ -100,7 +98,7 @@
             <p>It's up to you! We have a long list of products, gift cards, e-certificates, vouchers, and don't
               forget cash!
             </p>
-            <button class="mighty-home-content-3-btn btn">Learn More</button>
+            <button class="mighty-home-content-3-btn btn" onclick="location.href = '/communa/rewards.php';">Learn More</button>
           </div>
         </div>
       </div>

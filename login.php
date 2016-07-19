@@ -34,7 +34,7 @@
             <!--Login Panel-->
             <div class="mighty-login-panel panel panel-default">
               <div class="text-center panel-heading">
-                <a href="/communa/"><img src="images/logo-inverted.png" width="220" /></a>
+                <a href="/communa/"><img src="images/logo.png" width="220" /></a>
               </div>
               <div class="panel-body">
                 <div class="row clearfix-form">

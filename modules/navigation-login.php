@@ -17,9 +17,9 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lindsay Pratile <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="/communa/myProfile.php">My Profile</a></li>
-            <li><a href="#">My Points</a></li>
+            <li><a href="/communa/myPoints.php">My Points</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Rewards</a></li>
+            <li><a href="/communa/rewards.php">Rewards</a></li>
             <li role="separator" class="divider"></li>
             <li><a data-toggle="modal" href="#mySettings">My Settings</a></li>
             <li><a href="#">Log Out</a></li>

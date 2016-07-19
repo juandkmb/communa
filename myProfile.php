@@ -35,10 +35,16 @@
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
 
+            <div class="row" style="color:#fff;">
+              <div class="text-left col-sm-6 col-xs-6"><label>0</label></div>
+              <div class="text-right col-sm-6 col-xs-6"><label>1000</label></div>
+            </div>
+
             <div class="row">
               <div class="col-sm-12">
                 <div class="mighty-progress progress">
                   <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                    <div class="text-center"><h5 class="mighty-progress-current-points">650 Pts</h5></div>
                     <span class="sr-only">70% Complete</span>
                   </div>
                 </div>
@@ -46,18 +52,14 @@
             </div>
 
             <div class="row">
-              <div class="col-sm-3">
-                <h4>Current Points <span class="mighty-amount">300</span></h4>
-              </div>
-              <div class="col-sm-3">
-                <h4>Paid Out <span class="mighty-amount">500</span></h4>
-              </div>
+              <div class="col-sm-3"></div>
               <div class="col-sm-3">
                 <button class="mighty-header-status-btn btn" onclick="location.href = '/communa/cashout.php';">Cash Out</button>
               </div>
               <div class="col-sm-3">
                 <button class="mighty-header-status-btn btn" onclick="location.href = '/communa/rewards.php';">View Rewards</button>
               </div>
+              <div class="col-sm-3"></div>
             </div>
 
           </div>

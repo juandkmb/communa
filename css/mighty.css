@@ -151,12 +151,22 @@ textarea.form-control {
 }
 
 .mighty-header-status h4{
-  color: #fff;
-  font-weight: 100;
+  text-align: center;
+  color: #0085c4;
+  font-weight: 300;
+  background: #fff;
+  padding: 0.5em 0;
+  margin-top: 0;
+  border-radius: 3px;
 }
 
 .mighty-amount{
   font-weight: 400;
+}
+
+h5.mighty-progress-current-points{
+  margin-top: 0.5em;
+  text-shadow: 1px 1px #3b3b3b;
 }
 
 .mighty-header-status-btn{
@@ -184,7 +194,14 @@ textarea.form-control {
 }
 
 .mighty-progress .progress-bar{
-  background-color: #36c000;
+  background: rgba(255,179,38,1);
+  background: -moz-linear-gradient(top, rgba(255,179,38,1) 0%, rgba(230,153,0,1) 50%, rgba(255,179,38,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,179,38,1)), color-stop(50%, rgba(230,153,0,1)), color-stop(100%, rgba(255,179,38,1)));
+  background: -webkit-linear-gradient(top, rgba(255,179,38,1) 0%, rgba(230,153,0,1) 50%, rgba(255,179,38,1) 100%);
+  background: -o-linear-gradient(top, rgba(255,179,38,1) 0%, rgba(230,153,0,1) 50%, rgba(255,179,38,1) 100%);
+  background: -ms-linear-gradient(top, rgba(255,179,38,1) 0%, rgba(230,153,0,1) 50%, rgba(255,179,38,1) 100%);
+  background: linear-gradient(to bottom, rgba(255,179,38,1) 0%, rgba(230,153,0,1) 50%, rgba(255,179,38,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb326', endColorstr='#ffb326', GradientType=0 );
 }
 
 /*Mighty Form*/
@@ -289,10 +306,16 @@ textarea.form-control {
 
 .mighty-rewards-btn{
   background: transparent;
-  border:2px solid #3b3b3b;
+  border:2px solid #0085c4;
+  color:#0085c4;
   text-transform: uppercase;
   font-size: 1.1em;
   margin-top: 0.4em;
+}
+.mighty-rewards-btn:hover{
+  background: #0085c4;
+  border:2px solid #0085c4;
+  color:#fff;
 }
 
 /*mighty home content 1*/
@@ -323,11 +346,17 @@ textarea.form-control {
 
 .mighty-home-content-1-btn{
   background: transparent;
-  border:2px solid #3b3b3b;
+  border:2px solid #0085c4;
+  color:#0085c4;
   text-transform: uppercase;
   font-size: 1.1em;
   margin-top: 0.4em;
   font-family: 'Oswald',sans-serif;
+}
+.mighty-home-content-1-btn:hover{
+  background: #0085c4;
+  border:2px solid #0085c4;
+  color:#fff;
 }
 
 /*mighty home content 2*/
@@ -357,11 +386,17 @@ textarea.form-control {
 
 .mighty-home-content-2-btn{
   background: transparent;
-  border:2px solid #3b3b3b;
+  border:2px solid #0085c4;
+  color:#0085c4;
   text-transform: uppercase;
   font-size: 1.1em;
-  margin: 1em 0;
+  margin-top: 0.4em;
   font-family: 'Oswald',sans-serif;
+}
+.mighty-home-content-2-btn:hover{
+  background: #0085c4;
+  border:2px solid #0085c4;
+  color:#fff;
 }
 
 /*mighty home content 3*/
@@ -391,11 +426,17 @@ textarea.form-control {
 
 .mighty-home-content-3-btn{
   background: transparent;
-  border:2px solid #3b3b3b;
+  border:2px solid #0085c4;
+  color: #0085c4;
   text-transform: uppercase;
   font-size: 1.1em;
   margin: 1em 0;
   font-family: 'Oswald',sans-serif;
+}
+.mighty-home-content-3-btn:hover{
+  background: #0085c4;
+  border:2px solid #0085c4;
+  color: #fff;
 }
 
 /*Mighty Lobby Filters*/
@@ -507,16 +548,16 @@ a.mighty-lobby-filters-active{
 
 .mighty-surveys-btn{
   font-family: 'Oswald', sans-serif;
-  color:#fff;
+  color:#0085c4;
   text-transform: uppercase;
-  background: #3b3b3b;
-  border-bottom: 3px solid #2c9b00;
+  background: transparent;
+  border: 2px solid #0085c4;
   float: right;
 }
-
 .mighty-surveys-btn:hover{
-  color: #fff;
-  border-bottom: 3px solid #36c000;
+  color:#fff;
+  background: #0085c4;
+  border: 2px solid #0085c4;
 }
 
 /*My Profile Page*/
@@ -533,7 +574,8 @@ a.mighty-lobby-filters-active{
 .mighty-login{
   /*background: url('../images/login-bg.jpg') no-repeat center;
   background-size: cover;*/
-  background: url('../images/general-bg.png');
+  background: url('../images/login-bg.jpg') no-repeat center;
+  background-size: cover;
   position:fixed;
   padding:0;
   margin:0;
@@ -546,6 +588,7 @@ a.mighty-lobby-filters-active{
 .mighty-login-panel{
   margin-top: 40%;
   border: 1px solid #0085c4;
+  /*Gradient*/
   /*Gradiendt*/
   background: rgba(0,134,196,1);
   background: -moz-linear-gradient(top, rgba(0,134,196,1) 0%, rgba(42,161,216,1) 100%);
@@ -562,16 +605,8 @@ a.mighty-lobby-filters-active{
 }
 
 .mighty-login-panel .panel-heading{
-  border-bottom: 1px solid #0075ac;
-  /*Gradient*/
-  background: rgba(42,161,216,1);
-  background: -moz-linear-gradient(top, rgba(42,161,216,1) 0%, rgba(0,134,196,1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(42,161,216,1)), color-stop(100%, rgba(0,134,196,1)));
-  background: -webkit-linear-gradient(top, rgba(42,161,216,1) 0%, rgba(0,134,196,1) 100%);
-  background: -o-linear-gradient(top, rgba(42,161,216,1) 0%, rgba(0,134,196,1) 100%);
-  background: -ms-linear-gradient(top, rgba(42,161,216,1) 0%, rgba(0,134,196,1) 100%);
-  background: linear-gradient(to bottom, rgba(42,161,216,1) 0%, rgba(0,134,196,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2aa1d8', endColorstr='#0086c4', GradientType=0 );
+  border-bottom: 1px solid #0085c4;
+  background: #fff url('../images/general-bg.png');
 }
 
 .mighty-login-panel .panel-body{
@@ -606,7 +641,7 @@ a.mighty-lobby-filters-active{
 
 .mighty-login p{
   font-family: 'Oswald', sans-serif;
-  color: #fff;
+  color: #3b3b3b;
   font-size: 0.9em;
   font-weight: 300;
   padding-top: 1em;
@@ -826,6 +861,12 @@ transition-delay:.2s;
   padding-right: 5em;
 }
 
+.collectable-overview{
+  text-align: left;
+  padding-left: 5em;
+  border-left: 1px solid #ccc;
+}
+
 .collectable-graphic{
   border-left: 1px solid #ccc;
 }
@@ -841,6 +882,68 @@ transition-delay:.2s;
 .mighty-collect-btn:hover{
   color: #fff;
   opacity: 0.9;
+}
+
+/*My Points Page*/
+.mighty-points{
+  padding: 2em 0;
+}
+
+.mighty-progress-points{
+  height: 30px;
+}
+
+.mighty-progress-points .progress-bar{
+  background: rgba(0,174,255,1);
+  background: -moz-linear-gradient(top, rgba(0,174,255,1) 0%, rgba(0,134,196,1) 50%, rgba(0,174,255,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,174,255,1)), color-stop(50%, rgba(0,134,196,1)), color-stop(100%, rgba(0,174,255,1)));
+  background: -webkit-linear-gradient(top, rgba(0,174,255,1) 0%, rgba(0,134,196,1) 50%, rgba(0,174,255,1) 100%);
+  background: -o-linear-gradient(top, rgba(0,174,255,1) 0%, rgba(0,134,196,1) 50%, rgba(0,174,255,1) 100%);
+  background: -ms-linear-gradient(top, rgba(0,174,255,1) 0%, rgba(0,134,196,1) 50%, rgba(0,174,255,1) 100%);
+  background: linear-gradient(to bottom, rgba(0,174,255,1) 0%, rgba(0,134,196,1) 50%, rgba(0,174,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00aeff', endColorstr='#00aeff', GradientType=0 );
+}
+
+.mighty-points h4{
+  font-weight: 300;
+}
+
+.mighty-points h3{
+  font-weight: 300;
+  font-size: 1.2em;
+}
+
+.mighty-points-btn{
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  background: transparent;
+  border: 2px solid #0085c4;
+  color:#0085c4;
+}
+
+.mighty-points-btn:hover{
+  background: #0085c4;
+  border: 2px solid #0085c4;
+  color:#fff;
+}
+
+.mighty-points-more-options{
+  padding-top: 2em;
+}
+
+.mighty-points-date-filter-btn{
+  width: 100%;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  background: transparent;
+  color:#3b3b3b;
+  border: 2px solid #3b3b3b;
+}
+
+.mighty-points-date-filter-btn:hover{
+  background: #3b3b3b;
+  color:#fff;
+  border: 2px solid #3b3b3b;
 }
 
 /*Mighty Modal*/

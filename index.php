@@ -63,7 +63,7 @@
             <img src="images/visa.png" width="90" />
           </div>
           <div class="col-md-2">
-            <button class="mighty-rewards-btn btn">Learn More</button>
+            <button class="mighty-rewards-btn btn" onclick="location.href = '/communa/rewards.php';">Learn More</button>
           </div>
         </div>
       </div>
@@ -80,7 +80,7 @@
             <p>Communa, is an online community where opinions matter! Members are able to voice their toughts and ideas,
             while also getting rewarded. Communa members also have the added benefit of working from home anytime during
             the day and anywhere they'd like.</p>
-            <button class="mighty-home-content-1-btn btn">Learn More</button>
+            <button class="mighty-home-content-1-btn btn" onclick="location.href = '/communa/about.php';">Learn More</button>
           </div>
         </div>
       </div>

@@ -67,64 +67,97 @@
       </div>
     </section>
 
-    <section class="mighty-steps">
+    <section class="mighty-lobby-filters">
       <div class="container">
-        <div class="row bs-wizard" style="border-bottom:0;">
-            <div class="col-xs-4 bs-wizard-step complete">
-              <div class="text-center bs-wizard-stepnum">Step 1</div>
-              <div class="progress"><div class="progress-bar"></div></div>
-              <a href="#" class="bs-wizard-dot"></a>
-            </div>
-            <div class="col-xs-4 bs-wizard-step complete">
-              <div class="text-center bs-wizard-stepnum">Step 2</div>
-              <div class="progress"><div class="progress-bar"></div></div>
-              <a href="#" class="bs-wizard-dot"></a>
-            </div>
-            <div class="col-xs-4 bs-wizard-step disabled"><!-- active -->
-              <div class="text-center bs-wizard-stepnum">Step 3</div>
-              <div class="progress"><div class="progress-bar"></div></div>
-              <a href="#" class="bs-wizard-dot"></a>
-            </div>
+        <div class="row">
+          <div class="mighty-lobby-filters-scroll">
+            <ul>
+              <li><a href="/communa/myPoints.php">Redeem Points</a></li>
+              <li><a class="mighty-lobby-filters-active" href="/communa/history.php">History</a></li>
+            </ul>
+          </div>
         </div>
-    	</div>
+      </div>
     </section>
 
-    <section class="mighty-collect">
+    <section class="mighty-points">
       <div class="container">
 
-        <div class="text-center row">
+        <div class="row" style="padding-bottom:2em;">
+          <div class="col-md-6 col-md-offset-3">
+              <div class="row">
+                <div class="collectable-amounts col-sm-6">
+                  <h4>Current Points <span class="mighty-amount">500</span></h4>
+                  <h4>Dollar Value <span class="mighty-amount">$5</span></h4>
+                </div>
+                <div class="collectable-overview col-sm-6">
+                  <h4>Paid Out <span class="mighty-amount">0</span></h4>
+                  <h4>Dollar Value <span class="mighty-amount">0</span></h4>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="row">
           <div class="col-md-10 col-md-offset-1">
 
             <div class="row">
-              <div class="col-md-12">
-                <h2>How many points would you like to redeem?</h2>
-                <p>(Lorem Ipsum 100 Points = $1)</p>
+              <div class="col-md-2">
+                <p>Date Range</p>
               </div>
-            </div>
-
-            <div class="mighty-collect-information row">
-              <div class="collectable-amounts col-md-6">
-                <h4>Current Points <span class="mighty-amount">300</span></h4>
-                <h4>Redeemable Amount <span class="mighty-amount">$3</span></h4>
+              <div class="col-md-3">
+                <input type="text-field" class="form-control" placeholder="&#61447; Start"/>
               </div>
-              <div class="collectable-graphic col-md-6 text-center">
-                <img src="images/reward-8.png" alt="">
+              <div class="col-md-3">
+                <input type="text-field" class="form-control" placeholder="&#61447; End"/>
               </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-12">
-                <p>Reedem for $<input  class=""> (min $5, max $10) <button class="mighty-collect-btn btn" onclick="location.href = '/communa/cashout3.php';">Confirm</button></p>
+              <div class="col-md-2">
+                <button class="mighty-points-date-filter-btn btn">Apply</button>
+              </div>
+              <div class="col-md-2">
+                <button class="mighty-points-date-filter-btn btn">Clear</button>
               </div>
             </div>
 
           </div>
         </div>
 
-    	</div>
+        <div class="row" style="padding-top:1em;">
+          <div class="col-md-10 col-md-offset-1">
+            <!-- Table -->
+            <div class="table-responsive">
+            <table id="mighty-surveys-table" class="table">
+              <thead class="">
+                <tr>
+                  <th>Date</th>
+                  <th>Event Log</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>6/3/16</td>
+                  <td>Peanut Labs - General</td>
+                  <td>25</td>
+                </tr>
+                <tr>
+                  <td>6/2/16</td>
+                  <td>General Profile Questions</td>
+                  <td>25</td>
+                </tr>
+                <tr>
+                  <td>6/2/16</td>
+                  <td>Signup Bonus</td>
+                  <td>8 min</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </section>
-
-
 
     <?php include('modules/footer.php'); ?>
 

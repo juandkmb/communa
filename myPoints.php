@@ -67,64 +67,77 @@
       </div>
     </section>
 
-    <section class="mighty-steps">
+    <section class="mighty-lobby-filters">
       <div class="container">
-        <div class="row bs-wizard" style="border-bottom:0;">
-            <div class="col-xs-4 bs-wizard-step complete">
-              <div class="text-center bs-wizard-stepnum">Step 1</div>
-              <div class="progress"><div class="progress-bar"></div></div>
-              <a href="#" class="bs-wizard-dot"></a>
-            </div>
-            <div class="col-xs-4 bs-wizard-step complete">
-              <div class="text-center bs-wizard-stepnum">Step 2</div>
-              <div class="progress"><div class="progress-bar"></div></div>
-              <a href="#" class="bs-wizard-dot"></a>
-            </div>
-            <div class="col-xs-4 bs-wizard-step disabled"><!-- active -->
-              <div class="text-center bs-wizard-stepnum">Step 3</div>
-              <div class="progress"><div class="progress-bar"></div></div>
-              <a href="#" class="bs-wizard-dot"></a>
-            </div>
+        <div class="row">
+          <div class="mighty-lobby-filters-scroll">
+            <ul>
+              <li><a class="mighty-lobby-filters-active" href="/communa/myPoints.php">Redeem Points</a></li>
+              <li><a href="/communa/history.php">History</a></li>
+            </ul>
+          </div>
         </div>
-    	</div>
+      </div>
     </section>
 
-    <section class="mighty-collect">
+    <section class="mighty-points">
       <div class="container">
 
-        <div class="text-center row">
-          <div class="col-md-10 col-md-offset-1">
-
-            <div class="row">
-              <div class="col-md-12">
-                <h2>How many points would you like to redeem?</h2>
-                <p>(Lorem Ipsum 100 Points = $1)</p>
+        <div class="row" style="padding-bottom:2em;">
+          <div class="col-md-6 col-md-offset-3">
+              <div class="row">
+                <div class="collectable-amounts col-sm-6">
+                  <h4>Current Points <span class="mighty-amount">500</span></h4>
+                  <h4>Dollar Value <span class="mighty-amount">$5</span></h4>
+                </div>
+                <div class="collectable-overview col-sm-6">
+                  <h4>Paid Out <span class="mighty-amount">0</span></h4>
+                  <h4>Dollar Value <span class="mighty-amount">0</span></h4>
+                </div>
               </div>
-            </div>
-
-            <div class="mighty-collect-information row">
-              <div class="collectable-amounts col-md-6">
-                <h4>Current Points <span class="mighty-amount">300</span></h4>
-                <h4>Redeemable Amount <span class="mighty-amount">$3</span></h4>
-              </div>
-              <div class="collectable-graphic col-md-6 text-center">
-                <img src="images/reward-8.png" alt="">
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-12">
-                <p>Reedem for $<input  class=""> (min $5, max $10) <button class="mighty-collect-btn btn" onclick="location.href = '/communa/cashout3.php';">Confirm</button></p>
-              </div>
-            </div>
-
           </div>
         </div>
 
-    	</div>
+        <div class="text-center row">
+          <div class="col-md-6 col-md-offset-3">
+              <h3>You've earned <span class="mighty-amount">$5.00</span> this month</h3>
+              <div class="mighty-progress-points progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:30%">
+                    <span class="sr-only">30% Complete</span>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="text-center row">
+          <div class="col-md-6 col-md-offset-3">
+              <h3>To redeem $5 you'll need: <span class="mighty-amount">500</span> points</h3>
+              <div class="mighty-progress-points progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                    <span class="sr-only">80% Complete</span>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="mighty-points-more-options text-center row">
+          <div class="col-sm-6 col-sm-offset-3">
+            <div class="row">
+              <div class="col-sm-4">
+                <button class="mighty-points-btn btn" onclick="location.href = '/communa/cashout.php';">Cash Out</button>
+              </div>
+              <div class="col-sm-4">
+                <button class="mighty-points-btn btn" onclick="location.href = '/communa/lobby.php';">Take More Surveys</button>
+              </div>
+              <div class="col-sm-4">
+                <button class="mighty-points-btn btn" onclick="location.href = '/communa/rewards.php';">View Rewards</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </section>
-
-
 
     <?php include('modules/footer.php'); ?>
 

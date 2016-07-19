@@ -9,7 +9,7 @@
         <ul>
           <li><a href="/communa/about.php">About</a></li>
           <li><a href="/communa/rewards.php">Rewards</a></li>
-          <li><a href="#">My Profile</a></li>
+          <li><a href="/communa/myProfile.php">My Profile</a></li>
         </ul>
       </div>
       <div class="col-md-3">
