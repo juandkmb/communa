@@ -46,19 +46,91 @@
         <div class="text-center row">
           <div class="col-md-10 col-md-offset-1">
             <div class="row">
-              <div class="col-sm-4"><img src="http://placehold.it/325x200"></div>
-              <div class="col-sm-4"><img src="http://placehold.it/325x200"></div>
-              <div class="col-sm-4"><img src="http://placehold.it/325x200"></div>
+              <div class="col-sm-4">
+                <div class="hovereffect">
+                    <img src="images/reward-1.png" alt="">
+                    <div class="overlay">
+                       <h2>Lorem Ipsum</h2>
+                       <a class="info" href="#">more</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="hovereffect">
+                    <img src="images/reward-2.png" alt="">
+                    <div class="overlay">
+                       <h2>Lorem Ipsum</h2>
+                       <a class="info" href="#">more</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="hovereffect">
+                    <img src="images/reward-3.png" alt="">
+                    <div class="overlay">
+                       <h2>Lorem Ipsum</h2>
+                       <a class="info" href="#">more</a>
+                    </div>
+                </div>
+              </div>
             </div>
             <div class="row">
-              <div class="col-sm-4"><img src="http://placehold.it/325x200"></div>
-              <div class="col-sm-4"><img src="http://placehold.it/325x200"></div>
-              <div class="col-sm-4"><img src="http://placehold.it/325x200"></div>
+              <div class="col-sm-4">
+                <div class="hovereffect">
+                    <img src="images/reward-4.png" alt="">
+                    <div class="overlay">
+                       <h2>Lorem Ipsum</h2>
+                       <a class="info" href="#">more</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="hovereffect">
+                    <img src="images/reward-5.png" alt="">
+                    <div class="overlay">
+                       <h2>Lorem Ipsum</h2>
+                       <a class="info" href="#">more</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="hovereffect">
+                    <img src="images/reward-6.png" alt="">
+                    <div class="overlay">
+                       <h2>Lorem Ipsum</h2>
+                       <a class="info" href="#">more</a>
+                    </div>
+                </div>
+              </div>
             </div>
             <div class="row">
-              <div class="col-sm-4"><img src="http://placehold.it/325x200"></div>
-              <div class="col-sm-4"><img src="http://placehold.it/325x200"></div>
-              <div class="col-sm-4"><img src="http://placehold.it/325x200"></div>
+              <div class="col-sm-4">
+                <div class="hovereffect">
+                    <img src="images/reward-7.png" alt="">
+                    <div class="overlay">
+                       <h2>Lorem Ipsum</h2>
+                       <a class="info" href="#">more</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="hovereffect">
+                    <img src="images/reward-8.png" alt="">
+                    <div class="overlay">
+                       <h2>Lorem Ipsum</h2>
+                       <a class="info" href="#">more</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="hovereffect">
+                    <img src="images/reward-9.png" alt="">
+                    <div class="overlay">
+                       <h2>Lorem Ipsum</h2>
+                       <a class="info" href="#">more</a>
+                    </div>
+                </div>
+              </div>
             </div>
             <div class="row">
               <div class="col-sm-12">
