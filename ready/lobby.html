@@ -1,0 +1,394 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Communa | Lorem Ipsum Dolor</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="libraries/font-awesome-4.6.3/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900|Oswald:400,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap core CSS -->
+    <link href="libraries/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/mighty.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="mighty-navbar navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="mighty-navbar-brand" href="index.html"><img src="images/logo.png" width="200" /></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <!-- User Login and Profile -->
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lindsay Pratile <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="myProfile.html">My Profile</a></li>
+                <li><a href="myPoints.html">My Points</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="rewards.html">Rewards</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a data-toggle="modal" href="#mySettings">My Settings</a></li>
+                <li><a href="#">Log Out</a></li>
+              </ul>
+            </li>
+            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          </ul>
+          <!-- Default Navigation -->
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="lobby.html">Surveys</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="rewards.html">Rewards</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <!-- Modal -->
+    <div class="modal fade" id="mySettings" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="mighty-modal modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">My Settings</h4>
+          </div>
+          <div class="modal-body">
+
+            <div class="row clearfix-form">
+              <div class="col-md-4">
+                <label>First Name</label>
+              </div>
+              <div class="col-md-8">
+                <input type="text-field" class="form-control" placeholder="First Name"/>
+              </div>
+            </div>
+            <div class="row clearfix-form">
+              <div class="col-md-4">
+                <label>Last Name</label>
+              </div>
+              <div class="col-md-8">
+                <input type="text-field" class="form-control" placeholder="Last Name"/>
+              </div>
+            </div>
+            <div class="row clearfix-form">
+              <div class="col-md-4">
+                <label>Email</label>
+              </div>
+              <div class="col-md-8">
+                <input type="text-field" class="form-control" placeholder="Email"/>
+              </div>
+            </div>
+            <div class="row clearfix-form">
+              <div class="col-md-4">
+                <label>PayPal Email</label>
+              </div>
+              <div class="col-md-8">
+                <input type="text-field" class="form-control" placeholder="PayPal Email"/>
+              </div>
+            </div>
+            <div class="row clearfix-form">
+              <div class="col-md-4">
+                <label>e-Giftcard Email</label>
+              </div>
+              <div class="col-md-8">
+                <input type="text-field" class="form-control" placeholder="e-Giftcard Email"/>
+              </div>
+            </div>
+            <div class="row clearfix-form">
+              <div class="col-md-4">
+                <label>Address 1</label>
+              </div>
+              <div class="col-md-8">
+                <input type="text-field" class="form-control" placeholder="Address 1"/>
+              </div>
+            </div>
+            <div class="row clearfix-form">
+              <div class="col-md-4">
+                <label>Address 2</label>
+              </div>
+              <div class="col-md-8">
+                <input type="text-field" class="form-control" placeholder="Address 2"/>
+              </div>
+            </div>
+            <div class="row clearfix-form">
+              <div class="col-md-4">
+                <label>Postal Code</label>
+              </div>
+              <div class="col-md-8">
+                <input type="text-field" class="form-control" placeholder="Postal Code"/>
+              </div>
+            </div>
+            <div class="row clearfix-form">
+              <div class="col-md-4">
+                <label>New Password</label>
+              </div>
+              <div class="col-md-8">
+                <input type="text-field" class="form-control" placeholder="New Password"/>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <label>Confirm New Password</label>
+              </div>
+              <div class="col-md-8">
+                <input type="text-field" class="form-control" placeholder="Confirm New Password"/>
+              </div>
+            </div>
+
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="mighty-modal-cancel-btn btn" data-dismiss="modal">Cancel</button>
+            <button type="button" class="mighty-modal-update-btn btn">Update</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Mighty Header Status Section -->
+    <section class="mighty-header-status">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+
+            <div class="row" style="color:#fff;">
+              <div class="text-left col-sm-4 col-xs-4"><label style="font-weight:300;">0</label></div>
+              <div class="text-center col-sm-4 col-xs-4"><label style="font-weight:900;">Your Communa Points 650</label></div>
+              <div class="text-right col-sm-4 col-xs-4"><label style="font-weight:300;">1000</label></div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="mighty-progress progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                    <span class="sr-only">70% Complete</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-3"></div>
+              <div class="col-sm-3">
+                <button class="mighty-header-status-btn btn" onclick="location.href = 'rewards.html';">View Rewards</button>
+              </div>
+              <div class="col-sm-3">
+                <button class="mighty-header-status-btn btn" onclick="location.href = 'cashout.html';">Cash Out</button>
+              </div>
+              <div class="col-sm-3"></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mighty-lobby-filters">
+      <div class="container">
+        <div class="row">
+          <div class="mighty-lobby-filters-scroll">
+            <ul>
+              <li><a class="mighty-lobby-filters-active" href="#">Featured</a></li>
+              <li><a href="#">Sports</a></li>
+              <li><a href="#">Entertainment</a></li>
+              <li><a href="#">LifeStyle</a></li>
+              <li><a href="#">Automotive</a></li>
+              <li><a href="#">World</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mighty-surveys">
+      <div class="container">
+        <div class="mighty-search-bar row">
+          <div class="col-md-10 col-md-offset-1">
+            <form class="search-bar">
+  						<div class="input-group">
+  							<span class="input-group-btn">
+  								<button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+  							</span>
+  							<input type="text" class="form-control" placeholder="Search Survey">
+  						</div>
+  					</form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <!-- Table -->
+            <div class="table-responsive">
+            <table id="mighty-surveys-table" class="table">
+              <thead class="">
+                <tr>
+                  <th>Title</th>
+                  <th>Type</th>
+                  <th>Category</th>
+                  <th>Points</th>
+                  <th>Est Lenght</th>
+                  <th>Close</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="survey-title">Fightful would like to gain insight on UFC &amp; WWE</td>
+                  <td>Type</td>
+                  <td><span class="survey-category">Sports</span></td>
+                  <td class="survey-pts">2000</td>
+                  <td class="survey-est">20min</td>
+                  <td>2 Days</td>
+                  <td><button class="mighty-surveys-btn btn">Take Survey</button></td>
+                </tr>
+                <tr>
+                  <td class="survey-title">Walwart Organic Products at best price</td>
+                  <td>Type</td>
+                  <td><span class="survey-category">Sports</span></td>
+                  <td class="survey-pts">500</td>
+                  <td class="survey-est">20min</td>
+                  <td>2 Days</td>
+                  <td><button class="mighty-surveys-btn btn">Take Survey</button></td>
+                </tr>
+                <tr>
+                  <td class="survey-title">Target Opening doors in Canada</td>
+                  <td>Type</td>
+                  <td><span class="survey-category">Sports</span></td>
+                  <td class="survey-pts">1200</td>
+                  <td class="survey-est">20min</td>
+                  <td>2 Days</td>
+                  <td><button class="mighty-surveys-btn btn">Take Survey</button></td>
+                </tr>
+                <tr>
+                  <td class="survey-title">Fightful would like to gain insight on UFC &amp; WWE</td>
+                  <td>Type</td>
+                  <td><span class="survey-category">Sports</span></td>
+                  <td class="survey-pts">2000</td>
+                  <td class="survey-est">20min</td>
+                  <td>2 Days</td>
+                  <td><button class="mighty-surveys-btn btn">Take Survey</button></td>
+                </tr>
+                <tr>
+                  <td class="survey-title">Walwart Organic Products at best price</td>
+                  <td>Type</td>
+                  <td><span class="survey-category">Sports</span></td>
+                  <td class="survey-pts">500</td>
+                  <td class="survey-est">20min</td>
+                  <td>2 Days</td>
+                  <td><button class="mighty-surveys-btn btn">Take Survey</button></td>
+                </tr>
+                <tr>
+                  <td class="survey-title">Fightful would like to gain insight on UFC &amp; WWE</td>
+                  <td>Type</td>
+                  <td><span class="survey-category">Sports</span></td>
+                  <td class="survey-pts">2000</td>
+                  <td class="survey-est">20min</td>
+                  <td>2 Days</td>
+                  <td><button class="mighty-surveys-btn btn">Take Survey</button></td>
+                </tr>
+                <tr>
+                  <td class="survey-title">Walwart Organic Products at best price</td>
+                  <td>Type</td>
+                  <td><span class="survey-category">Sports</span></td>
+                  <td class="survey-pts">500</td>
+                  <td class="survey-est">20min</td>
+                  <td>2 Days</td>
+                  <td><button class="mighty-surveys-btn btn">Take Survey</button></td>
+                </tr>
+                <tr>
+                  <td class="survey-title">Fightful would like to gain insight on UFC &amp; WWE</td>
+                  <td>Type</td>
+                  <td><span class="survey-category">Sports</span></td>
+                  <td class="survey-pts">2000</td>
+                  <td class="survey-est">20min</td>
+                  <td>2 Days</td>
+                  <td><button class="mighty-surveys-btn btn">Take Survey</button></td>
+                </tr>
+                <tr>
+                  <td class="survey-title">Walwart Organic Products at best price</td>
+                  <td>Type</td>
+                  <td><span class="survey-category">Sports</span></td>
+                  <td class="survey-pts">500</td>
+                  <td class="survey-est">20min</td>
+                  <td>2 Days</td>
+                  <td><button class="mighty-surveys-btn btn">Take Survey</button></td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mighty Footer -->
+    <footer class="mighty-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="images/logo-footer.png" width="150" />
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li><a href="about.html">About</a></li>
+              <li><a href="rewards.html">Rewards</a></li>
+              <li><a href="myProfile.html">My Profile</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Facebook</a></li>
+            </ul>
+          </div>
+        </row>
+      </div>
+      <div class="row">
+        <div class="text-center col-md-12">
+          <p>Copyright 2016 Communa. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="libraries/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/mighty.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
