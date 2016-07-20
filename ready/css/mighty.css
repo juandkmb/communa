@@ -229,6 +229,15 @@ h5.mighty-progress-current-points{
   }
 }
 
+.mighty-header-form-wrapper .col-sm-4,
+.mighty-header-form-wrapper .col-xs-4,
+.mighty-header-form-wrapper .col-sm-6,
+.mighty-header-form-wrapper .col-xs-6,
+.mighty-header-form-wrapper .col-sm-12{
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
 .mighty-header-form-header{
   text-align: center;
   font-family: 'Oswald', sans-serif;
