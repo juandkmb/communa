@@ -1029,6 +1029,13 @@ transition-delay:.2s;
   color: #fff;
 }
 
+/*Forgot Password*/
+.forgot-label{
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  font-weight: 300;
+}
+
 /*mighty footer*/
 .mighty-footer{
   padding: 3em 0;
