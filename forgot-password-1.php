@@ -29,35 +29,39 @@
 
     <section class="mighty-login">
       <div class="container">
+
         <div class="row">
           <div class="col-md-6 col-md-offset-3">
+
             <!--Login Panel-->
             <div class="mighty-login-panel panel panel-default">
               <div class="text-center panel-heading">
                 <a href="/communa/"><img src="images/logo.png" width="220" /></a>
               </div>
               <div class="panel-body">
-                <div class="row clearfix-form">
+
+                <div class="row">
                   <div class="col-sm-12">
-                    <input type="text-field" class="form-control" placeholder="Username"/>
+                    <div id="success-alert" class="alert alert-success">
+                      <a href="#" class="close" data-dismiss="alert">&times;</a>
+                      An e-mail had been sent to set up new password.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-12">
+                    <label class="forgot-label">Forgot Password?</label>
                   </div>
                 </div>
                 <div class="row clearfix-form">
                   <div class="col-sm-12">
-                    <input type="password" class="form-control" placeholder="Password"/>
-                  </div>
-                </div>
-                <div class="row clearfix-form">
-                  <div class="text-center col-sm-12">
-                    <ul>
-                      <li><a href="/communa/index.php">Create an Account</a></li>
-                      <li><a href="/communa/forgot-password-1.php">Forgot Password</a></li>
-                    </ul>
+                    <input type="text-field" class="form-control" placeholder="Email Address"/>
                   </div>
                 </div>
                 <div class="row clearfix-form">
                   <div class="col-sm-12">
-                    <button class="mighty-login-btn btn">Login</button>
+                    <button id="myWish" href="javascript:;" class="mighty-login-btn btn">Submit</button>
                   </div>
                 </div>
                 <div class="row">
@@ -78,6 +82,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="libraries/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/mighty.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
