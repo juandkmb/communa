@@ -47,7 +47,7 @@
             <h3>Our Office.</h3>
             <p>2323 Yonge Street, Suite 203 <br />Toronto, Ontario M4P 2C9</p>
             <p><strong>Phone</strong> 647.503.2356 (4237)</p>
-            <p><strong>Fax</strong> 647.503.2356 (4237)</p>
+            <p><strong>Fax</strong> 647.503.2356</p>
           </div>
           <div class="col-md-8">
             <div class="row clearfix-form">

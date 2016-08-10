@@ -34,7 +34,7 @@
       <div class="container">
         <div class="row">
           <div class="text-center col-md-12 mighty-submsg">
-            <h1>Make a Difference &amp; Get Paid for it</h1>
+            <h1>Make a Difference &amp; Get Rewarded.</h1>
           </div>
         </div>
       </div>
@@ -63,9 +63,8 @@
           </div>
           <div class="col-md-8 mighty-home-content-p">
             <h2>Why Join Us?</h2>
-            <p>Communa, is an online community where opinions matter! Members are able to voice their toughts and ideas,
-            while also getting rewarded. Communa members also have the added benefit of working from home anytime during
-            the day and anywhere they'd like.</p>
+            <p>Communa, is an online community where opinions matter! Members are able to voice their thoughts and ideas,
+            while also getting rewarded. Communa members also have the added benefit of giving feedback anytime and anywhere.</p>
           </div>
         </div>
       </div>
@@ -76,8 +75,8 @@
         <div class="row mighty-home-content-beautifier">
           <div class="col-md-8 mighty-home-content-p">
             <h2>How Do You Participate?</h2>
-            <p>You can join by simply filling out our free registration form. Once your membership is confirmed by email,
-            you can start earning cash and getting reward points by giving your opinions on online paid surveys. These
+            <p>You can join by simply filling out our registration form. Once your membership is confirmed by email,
+            you can start earning rewards by giving your opinions to online surveys. These
             surveys are available anytime and anywhere via PC, Laptop, or Cell Phone.</p>
           </div>
           <div class="text-center col-md-4">

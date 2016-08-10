@@ -35,7 +35,7 @@
         <div class="row">
           <div class="col-md-8 mighty-msg">
             <!-- <img src="images/logo-bubbles.png" width="100"/> -->
-            <h1>Give Your Opinion.</br> Earn Points.</br> Get Money.</h1>
+            <h1>Give Opinion &amp;<br/> Earn Rewards</h1>
           </div>
           <div class="col-md-4">
             <?php include('modules/home-registration-form.php'); ?>
@@ -77,9 +77,8 @@
           </div>
           <div class="col-md-8 mighty-home-content-p">
             <h2>Why Join Us?</h2>
-            <p>Communa, is an online community where opinions matter! Members are able to voice their toughts and ideas,
-            while also getting rewarded. Communa members also have the added benefit of working from home anytime during
-            the day and anywhere they'd like.</p>
+            <p>Communa, is an online community where opinions matter! Members are able to voice their thoughts and ideas,
+            while also getting rewarded. Communa members also have the added benefit of giving feedback anytime and anywhere.</p>
             <button class="mighty-home-content-1-btn btn" onclick="location.href = '/communa/about.php';">Learn More</button>
           </div>
         </div>
@@ -91,8 +90,8 @@
         <div class="row mighty-home-content-beautifier">
           <div class="col-md-8 mighty-home-content-p">
             <h2>How Do You Participate?</h2>
-            <p>You can join by simply filling out our free registration form. Once your membership is confirmed by email,
-            you can start earning cash and getting reward points by giving your opinions on online paid surveys. These
+            <p>You can join by simply filling out our registration form. Once your membership is confirmed by email,
+            you can start earning rewards by giving your opinions to online surveys. These
             surveys are available anytime and anywhere via PC, Laptop, or Cell Phone.</p>
             <button class="mighty-home-content-2-btn btn">Signup Today</button>
           </div>
