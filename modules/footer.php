@@ -16,7 +16,7 @@
         <ul>
           <li><a href="/communa/contact.php">Contact</a></li>
           <li><a href="/communa/privacy-policy.php">Privacy Policy</a></li>
-          <li><a href="#">Terms of Use</a></li>
+          <li><a href="/communa/terms-of-use.php">Terms of Use</a></li>
           <li><a href="/communa/faq.php">FAQ</a></li>
         </ul>
       </div>
