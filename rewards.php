@@ -35,7 +35,7 @@
         <div class="row">
           <div class="text-center col-md-12 mighty-submsg">
             <h1>Below is a list of our current rewards eGift cards</h1>
-            <p>(100 points = $1)</p>
+            <p>(1,000 points = $1)</p>
           </div>
         </div>
       </div>
