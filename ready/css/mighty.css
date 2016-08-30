@@ -123,23 +123,90 @@ textarea.form-control {
 }
 
 .mighty-msg{
-  padding-top: 12%;
+  padding-top: 18%;
   padding-left: 10%;
 }
 
 .mighty-msg h1{
+  width: 505px;
   color:#fff;
+  font-family: 'Oswald', sans-serif;
   font-weight: 900;
-  font-size: 3em;
-  line-height: 90%;
-  text-shadow: 2px 2px #3b3b3b;
+  font-size: 4em;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 8px #3b3b3b;
+  line-height: normal;
+}
+@media (max-width:622px) {
+  .mighty-msg h1{
+    width: 406px;
+    font-size: 3.5em;
+  }
+}
+@media(max-width:555px){
+  .mighty-msg h1{
+    width: 300px;
+    font-size: 2.5em;
+  }
+}
+@media(max-width:400px){
+  .mighty-msg h1{
+    width: 83%;
+    font-size: 2em;
+  }
+}
+
+/* typewriter animation */
+.typewrite{
+  display: block;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .13em solid #000; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: -1px; /* Adjust as needed */
+}
+.typewrite{
+  width: 0;
+  animation: 
+    typing 3.5s steps(12, end) infinite,
+    blink-caret .75s step-end infinite;
+}
+@keyframes typing{
+  0% { width: 0; }
+  50% { width: 100%; }
+  92% { width:  100%; }
+  98% { width: 0; }
+  100% { width: 0; }
+}
+@keyframes blink-caret{
+  from,to { border-color: transparent; }
+  50% { border-color: #0085c4; }
 }
 
 /*Mighty Subheader*/
 .mighty-subheader{
   margin-top: 50px;
-  padding: 4em 0;
-  background: #0085c4 url('../images/mighty-subheader-bg.png');
+  padding: 8em 0;
+  background-color: #0085c4;
+  background-image: url('holder'), url('../images/mighty-subheader-bg.png');
+  background-position: center, center;
+  background-repeat: no-repeat, repeat;
+}
+body.rewards .mighty-subheader{
+  background: url('../images/header-bg2.jpg') center no-repeat;
+  background-size: cover;
+}
+body.faq .mighty-subheader{
+  background: url('../images/header-bg3.jpg') center no-repeat;
+  background-size: cover;
+}
+body.contact .mighty-subheader{
+  background: url('../images/header-bg4.jpg') center no-repeat;
+  background-size: cover;
+}
+body.privacy-policy .mighty-subheader, body.terms .mighty-subheader{
+  background: url('../images/header-bg5.jpg') center no-repeat;
+  background-size: cover;
 }
 
 .mighty-submsg h1{
@@ -156,8 +223,12 @@ textarea.form-control {
 /*Mighty Header Status*/
 .mighty-header-status{
   margin-top: 50px;
-  padding: 2em 0;
-  background: #0085c4 url('../images/mighty-subheader-bg.png');
+  padding: 1em 0 1.1em;
+  background-color: #0085c4;
+  background-image: url(empty), url('../images/mighty-subheader-bg.png');
+  background-position: center 75%, center;
+  background-size: 1140px, auto;
+  background-repeat: no-repeat, repeat;
 }
 
 .mighty-header-status h4{
@@ -182,36 +253,69 @@ h5.mighty-progress-current-points{
 .mighty-header-status-btn{
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
-  background: transparent;
+  background: #fff;
   border: 2px solid #fff;
-  color: #fff;
+  color: #0085c4;
   width: 100%;
-  margin-bottom: 0.5em;
   font-size: 0.95em;
+  padding: 6px 12px;
+  transition: all 333ms;
+  border-radius: 25px;
+}
+@media(max-width:767px){
+  .mighty-header-status-btn{
+    margin-bottom: 0.5em;
+  }
 }
 
 .mighty-header-status-btn:hover{
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
-  background: #fff;
-  border: 2px solid #fff;
-  color: #0085c4;
+  background: #0085c4;
+  /*border: 2px solid #0085c4;*/
+  color: #fff;
   width: 100%;
 }
 
 .mighty-progress{
+  text-align: center;
   height: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 14px/50%;
+  border: 2px solid #fff;
+  background: #929292;
+  background: -moz-linear-gradient(top,  #929292 0%, #c4c4c4 100%);
+  background: -webkit-linear-gradient(top,  #929292 0%,#c4c4c4 100%);
+  background: linear-gradient(to bottom,  #929292 0%,#c4c4c4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#929292', endColorstr='#c4c4c4',GradientType=0 );
+}
+@media (max-width:992px) {
+  .mighty-progress{
+    margin-bottom: 1em;
+  }
 }
 
 .mighty-progress .progress-bar{
-  background: rgba(255,179,38,1);
-  background: -moz-linear-gradient(top, rgba(255,179,38,1) 0%, rgba(230,153,0,1) 50%, rgba(255,179,38,1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,179,38,1)), color-stop(50%, rgba(230,153,0,1)), color-stop(100%, rgba(255,179,38,1)));
-  background: -webkit-linear-gradient(top, rgba(255,179,38,1) 0%, rgba(230,153,0,1) 50%, rgba(255,179,38,1) 100%);
-  background: -o-linear-gradient(top, rgba(255,179,38,1) 0%, rgba(230,153,0,1) 50%, rgba(255,179,38,1) 100%);
-  background: -ms-linear-gradient(top, rgba(255,179,38,1) 0%, rgba(230,153,0,1) 50%, rgba(255,179,38,1) 100%);
-  background: linear-gradient(to bottom, rgba(255,179,38,1) 0%, rgba(230,153,0,1) 50%, rgba(255,179,38,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb326', endColorstr='#ffb326', GradientType=0 );
+  text-align: right;
+  font-size: 1.06em;
+  line-height: 1.4;
+  color: #212121;
+  background: #b4e391;
+  background: -moz-linear-gradient(top,  #b4e391 0%, #61c419 63%, #b4e391 100%);
+  background: -webkit-linear-gradient(top,  #b4e391 0%,#61c419 63%,#b4e391 100%);
+  background: linear-gradient(to bottom,  #b4e391 0%,#61c419 63%,#b4e391 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#b4e391',GradientType=0 );
+  border-radius: 12px/50%;
+  border-right: 2px solid #38AA16;
+}
+
+.mighty-progress .progress-bar .inside{
+  margin-right: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
 }
 
 /*Mighty Form*/
@@ -483,9 +587,9 @@ h5.mighty-progress-current-points{
 .mighty-lobby-filters ul{
   list-style: none;
   padding: 0;
-  padding: 1em 0;
+  padding: 0.9em 0;
   margin-bottom: 0;
-  width: 600px;
+  width: 800px;
 }
 
 .mighty-lobby-filters ul li{
