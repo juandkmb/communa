@@ -20,6 +20,10 @@ ul{
   color: #5d5c5c;
 }
 
+.form-group {
+    margin-bottom: 0;
+}
+
 textarea.form-control {
   height: 250px;
 }
@@ -128,11 +132,11 @@ textarea.form-control {
 }
 
 .mighty-msg h1{
-  width: 505px;
+  width: 535px;
   color:#fff;
   font-family: 'Oswald', sans-serif;
   font-weight: 900;
-  font-size: 4em;
+  font-size: 4.2em;
   text-transform: uppercase;
   text-shadow: 2px 2px 8px #3b3b3b;
   line-height: normal;
